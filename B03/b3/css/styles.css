@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: "Mulish", sans-serif;
+    font-size: 1.8rem;
+    background-color: #eef3f9;
+    color: #151749;
+}
+
+.container {
+    margin: 61px auto;
+    width: 625px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 86px -20px #c8d5f1;
+    overflow: hidden;
+}
+
+.form_header {
+    position: relative;
+    padding: 100px 0 70px 0;
+    background-color: #20225e;
+}
+
+.form_title {
+    text-align: center;
+    font-size: 3.2rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.cancel_logo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: inline-block;
+    text-align: center;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    background-color: #2f316e;
+    color: #fff;
+}
+
+.cancel_logo i {
+    line-height: 46px;
+}
+
+.form_footer {
+    background-color: #fff;
+    padding: 65px 117px 70px;
+}
+
+.item {
+    margin-bottom: 40px;
+}
+
+.item input,
+.item select {
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid #d3d5f1;
+    padding: 13px 4px;
+}
+
+.item label {
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.form_btn {
+    text-align: center;
+}
+
+.btn {
+    padding: 27px 92px;
+    border: 0;
+    border-radius: 999px;
+    background-color: #20225e;
+    color: #fff;
+    font-weight: 700;
+}

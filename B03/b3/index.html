@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <!-- Awesome -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+            integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <!-- GG Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+            rel="stylesheet"
+        />
+        <!-- CSS -->
+        <link rel="stylesheet" href="./css/styles.css" />
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="form_header">
+                <p class="form_title">Submit a tool</p>
+                <div class="cancel_logo">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+            <div class="form_footer">
+                <div class="footer_content">
+                    <form>
+                        <div class="item">
+                            <label for="name">Name</label>
+                            <input
+                                type="text"
+                                placeholder="UI Design Daily"
+                                id="name"
+                            />
+                        </div>
+                        <div class="item">
+                            <label for="link">Link to resource</label>
+                            <input
+                                type="text"
+                                placeholder="https://www.uidesigndaily.com/"
+                                id="link"
+                            />
+                        </div>
+                        <div class="item">
+                            <label for="name">Category</label>
+                            <select id="myDropdown" name="mySelection">
+                                <option>Select a category</option>
+                                <option value="option1">
+                                    Option 1 Display Text
+                                </option>
+                                <option value="option2">
+                                    Option 2 Display Text
+                                </option>
+                                <option value="option3">
+                                    Option 3 Display Text (Pre-selected)
+                                </option>
+                            </select>
+                        </div>
+                        <div class="form_btn">
+                            <button class="btn">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
