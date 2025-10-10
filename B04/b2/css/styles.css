@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.6rem;
+    color: #0e0e38;
+    background-color: #d8dae2;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.background {
+    position: relative;
+    margin: 21.6rem 1.8rem;
+    border-radius: 2.6rem;
+    background-color: #eff0f1;
+    box-shadow: 0px 76px 27px 0px #061b521a;
+}
+
+.background::before,
+.background::after {
+    position: absolute;
+    z-index: -1;
+    content: "";
+    border-radius: 50%;
+    background: linear-gradient(0deg, #e5e7f0, #e5e7f0),
+        linear-gradient(0deg, #e5e7f0, #e5e7f0),
+        linear-gradient(0deg, #e5e7f0, #e5e7f0),
+        linear-gradient(0deg, #e5e7f0, #e5e7f0),
+        linear-gradient(0deg, #e5e7f0, #e5e7f0);
+}
+
+.background::before {
+    width: 31rem;
+    height: 29.4rem;
+    right: 28.7rem;
+    top: -14.8rem;
+}
+
+.background::after {
+    width: 43.3rem;
+    height: 41rem;
+    bottom: -15.9rem;
+    left: 22.1rem;
+}
+
+.container {
+    padding: 62px;
+    margin: 0 auto;
+}
+
+.display_flex {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.heading {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-size: 3.2rem;
+}
+
+.frame_box {
+    margin-top: 2.4rem;
+    gap: 0.8rem;
+}
+
+.frame_box span {
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 0.8rem;
+}
+
+.item_box {
+    margin: 5.6rem -6.4rem 0 0;
+    gap: 6.4rem;
+}
+
+.item {
+    width: calc(33.33% - 6.4rem);
+    padding: 24px;
+    border-radius: 3.2rem;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.img_big,
+.img_small {
+    border-radius: 2.4rem;
+    overflow: hidden;
+}
+
+.img_big {
+    height: 26.8rem;
+}
+
+.img_small_row {
+    gap: 1.6rem;
+    margin: 1.6rem -1.6rem 0 0;
+}
+
+.img_small {
+    width: calc(33.33% - 1.6rem);
+    height: 9.7rem;
+}
+
+.title_row {
+    margin-top: 2.4rem;
+    justify-content: space-between;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 2.4rem;
+}
+
+.img_logo_row {
+    gap: 0.4rem;
+}
+
+.img_logo_desc {
+    font-weight: 500;
+}
