@@ -1,0 +1,322 @@
+/* Header */
+.header {
+    padding: 2.2rem 0;
+    box-shadow: 0px 3px 9px 0px #0000000d;
+    background-color: #fff;
+}
+
+.navbar_link {
+    padding: 4px 12px;
+    color: var(--desc_color);
+    font-size: 1.8rem;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+.navbar_link:hover {
+    color: var(--icon_color);
+}
+
+.navbar_link i {
+    font-size: 1.6rem;
+}
+
+/* Hero */
+.hero {
+    padding: 7.2rem 0;
+    background-color: #f4f4f4;
+}
+.hero_cate {
+    padding: 0;
+    margin-right: -3rem;
+    gap: 3rem;
+}
+
+.hero_cate_link {
+    width: calc(25% - 3rem);
+    padding: 2rem 4.5rem;
+    border-radius: 15px;
+    background-color: #fff;
+    transition: box-shadow 0.3s;
+}
+
+.hero_cate_link:hover {
+    box-shadow: 1px 1px 5px 0px #0101010d;
+}
+
+.hero_cate_item {
+    flex-direction: column;
+}
+
+.hero_cate_img i {
+    font-size: 2.6rem;
+    color: var(--icon_color);
+}
+
+.hero_cate_title {
+    font-weight: 700;
+    font-size: 2rem;
+    color: var(--desc_color);
+    white-space: nowrap;
+}
+
+/* Hero Content */
+.hero_content {
+    flex-direction: row;
+    margin-top: 7.2rem;
+}
+
+.hero_content_left {
+    padding-right: 3rem;
+    width: 70%;
+}
+
+.h1_heading {
+    margin: 2.4rem 0;
+    font-size: 4.5rem;
+}
+
+.hero_content_right {
+    margin-top: 0;
+    width: 30%;
+    aspect-ratio: 1 / 1.25;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+/* Top Picks */
+.top_picks {
+    padding: 9.6rem 0;
+    background-color: #fff;
+}
+
+.top_picks_item {
+    position: relative;
+    aspect-ratio: 1 / 1.25;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+    gap: 16px;
+}
+
+.top_picks_h3 {
+    color: #fff;
+}
+
+.top_picks_info,
+.fashion_info {
+    gap: 10px;
+}
+
+.avatar_info {
+    flex-direction: column;
+    align-items: start;
+}
+
+.top_picks_info span {
+    color: #fff;
+}
+
+/* Fashion */
+.fashion {
+    padding: 9.6rem 0;
+    background-color: #f8f9fa;
+}
+
+.fashion_btn,
+.beauty_btn {
+    font-weight: 500;
+    color: var(--desc_color);
+}
+
+.fashion_item {
+    padding: 0;
+    flex-direction: column;
+}
+
+.fashion_img {
+    width: 100%;
+    aspect-ratio: 3 / 2;
+    overflow: hidden;
+}
+
+.fashion_item_content {
+    padding: 2.5rem 2rem 2.5rem 2.5rem;
+    background-color: #fff;
+}
+
+.fashion_h3 {
+    color: var(--heading_color);
+}
+
+.fashion_info {
+    margin-top: 1.6rem;
+}
+
+/* Beauty */
+.beauty {
+    padding: 9.6rem 0;
+    background-color: #f4f4f4;
+}
+.beauty_item_list {
+    flex-wrap: wrap;
+}
+.beauty_item {
+    padding: 0;
+    width: calc(50% - 3rem);
+    background-color: #fff;
+}
+
+.beauty_img {
+    width: 42%;
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+}
+
+.beauty_item_content {
+    width: 58%;
+    padding: 0 2.5rem;
+}
+
+.beauty_info {
+    margin-top: 16px;
+    gap: 10px;
+}
+
+/* Trending */
+.trending {
+    padding: 9.6rem 4.8rem;
+    background-color: #f8f9fa;
+}
+
+.trending_item_list {
+    flex-wrap: wrap;
+    margin-right: -3rem;
+}
+
+.trending_item {
+    padding: 0;
+    width: calc(50% - 3rem);
+    background-color: #fff;
+}
+
+.trending_img {
+    width: 50%;
+    aspect-ratio: 1 / 1.25;
+    overflow: hidden;
+}
+
+.trending_item_content {
+    padding: 0 2.5rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    width: 50%;
+}
+
+.trending_info {
+    gap: 16px;
+}
+
+/* Subscribe */
+.subscribe {
+    padding: 9.6rem 0;
+    background-color: #f4f4f4;
+}
+
+.subscribe_container {
+    padding: 9.6rem 0;
+    background-color: #fff;
+    border-radius: 15px;
+}
+.subscribe_content {
+    max-width: 55.6rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.subscribe_desc {
+    margin-top: 8px;
+}
+
+.subscribe_form {
+    margin-top: 48px;
+    gap: 5px;
+}
+
+.subscribe_form input {
+    padding: 1.5rem 2rem;
+    flex-grow: 1;
+    border: 0;
+    font-size: 1.7rem;
+    font-weight: 400;
+    border-radius: 6px;
+    background-color: #f4f4f4;
+}
+
+.subscribe_form button {
+    padding: 1.5rem 3.5rem;
+    border: 0;
+    border-radius: 6px;
+    font-size: 1.7rem;
+    font-weight: 600;
+    background-color: var(--icon_color);
+    color: #fff;
+    transition: opacity 0.5s;
+}
+
+.subscribe_form button:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+/* Footer */
+.footer {
+    padding: 6.4rem 0;
+    background-color: #fff;
+}
+
+.footer_content {
+    align-items: flex-start;
+}
+
+.footer_company_block {
+    width: 32%;
+}
+
+.footer_company_desc {
+    margin-top: 1.6rem;
+}
+
+.footer_h3 {
+    margin-top: 8px;
+    font-family: Libre Baskerville;
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+.footer_company_block strong {
+    color: var(--icon_color);
+}
+
+.footer_list {
+    width: 68%;
+}
+
+.footer_h4 {
+    margin-bottom: 2rem;
+}
+
+.footer_link {
+    display: inline-block;
+    margin-top: 5px;
+    font-size: 1.8rem;
+    color: var(--desc_color);
+    transition: all 1s;
+    text-decoration: none;
+}
+
+.footer_link:hover {
+    text-decoration: underline;
+    color: var(--icon_color);
+}

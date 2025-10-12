@@ -134,3 +134,15 @@ img {
 .img_logo_desc {
     font-weight: 500;
 }
+
+
+
+@media screen and (max-width : 1150px) {
+    html {
+        font-size: 5px;
+    }
+
+    body {
+        font-size: 3rem;
+    }
+}
