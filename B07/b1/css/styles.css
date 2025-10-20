@@ -1,0 +1,40 @@
+#box {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+}
+
+.container {
+  display: inline-block;
+}
+
+.text {
+  vertical-align: top;
+  display: inline-block;
+  width: 200px;
+  background-color: red;
+}
+
+#slide_box {
+  padding: 100px 0;
+  display: flex;
+  justify-content: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  right: 100px;
+  left: 100px;
+  background-color: orange;
+}
+
+#close {
+  border: 1px solid #000;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  right: 0;
+  background-color: red;
+  color: #fff;
+}

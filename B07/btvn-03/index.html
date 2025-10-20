@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <!-- GG Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./css/styles.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="content">
+                <h2 class="heading">Password Generator</h2>
+                <div class="password_display">
+                    <p class="desc">Generated Password</p>
+                    <p id="password_code" class="btn">123456</p>
+                </div>
+                <form action="">
+                    <div class="slider-container">
+                        <label for="lengthRange" class="desc"
+                            >Length: <span id="length_value">20</span></label
+                        >
+                        <div class="slider flex btn">
+                            <span id="min">4</span>
+                            <input
+                                type="range"
+                                id="length_range"
+                                min="4"
+                                max="32"
+                                value="20"
+                            />
+                            <span id="min">32</span>
+                        </div>
+                    </div>
+                    <label for="" class="desc lbl_desc">Settings</label>
+                    <div class="check-list flex">
+                        <div class="check-item flex btn">
+                            <label for="check-number">Include numbers</label>
+                            <input type="checkbox" id="check-number" />
+                        </div>
+                        <div class="check-item flex btn">
+                            <label for="check-letter">Include letters</label>
+                            <input type="checkbox" id="check-letter" />
+                        </div>
+                        <div class="check-item flex btn">
+                            <label for="check-symbol">Include symbols</label>
+                            <input type="checkbox" id="check-symbol" />
+                        </div>
+                    </div>
+                    <button type="button" id="generate" class="btn">
+                        GENERATE PASSWORD
+                    </button>
+                </form>
+            </div>
+        </div>
+        <script src="./js/main.js"></script>
+    </body>
+</html>
