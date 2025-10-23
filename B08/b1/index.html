@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="content flex">
+      <div class="left_content flex">
+        <div class="font_size" flex>
+          <button id="inscrease_font_size" class="btn" onclick="ChangeSize('+')">+</button>
+          <button id="descrease_font_size" class="btn" onclick="ChangeSize('-')">-</button>
+        </div>
+        <input type="color" id="color">
+        <input type="color" name="bacground_color" id="bacground_color">
+        <select name="text_align" id="text_align">
+          <option value="left">Left</option>
+          <option value="center">Center</option>
+          <option value="right">Right</option>
+          <option value="justify">Justify</option>
+        </select>
+        <div class="slider-container">
+          <label for="lengthRange" class="desc">Length: <span id="length_value">1</span></label>
+          <div class="slider flex btn">
+            <span id="min">1</span>
+            <input type="range" id="length_range" min="1" max="3" value="1" step="0.5" />
+            <span id="min">3</span>
+          </div>
+        </div>
+
+      </div>
+      <div class="right_content">
+        <p id="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla omnis ipsam beatae ad iusto rerum
+          magni cum architecto atque commodi obcaecati culpa, tempore ullam, veritatis unde reprehenderit ipsum sed
+          voluptatibus vel illum quod pariatur molestias aspernatur velit? Sit, libero. Deserunt eveniet veniam quos
+          vero omnis consequuntur voluptas, suscipit labore doloribus animi dolor molestias necessitatibus iure debitis,
+          fuga sed! Consequuntur eius consectetur nostrum dolores ea? Distinctio excepturi quam illum nesciunt quod aut
+          accusamus, voluptas a ut eveniet soluta laboriosam deserunt quae ipsa cumque dolor incidunt odio? Fuga,
+          quaerat, exercitationem debitis sed velit saepe doloremque commodi perspiciatis totam nesciunt quae
+          reprehenderit iusto.</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="./js/main.js"></script>
+</body>
+
+</html>

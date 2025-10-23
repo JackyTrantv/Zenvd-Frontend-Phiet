@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    background-color: #ccc;
+}
+
+/* Common */
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 6px;
+    background-color: #ccc;
+}
+
+.border {
+    border: 1px solid orange;
+    border-radius: 10px;
+}
+
+.disabled,
+.selected,
+.corrected {
+    pointer-events: none;
+    opacity: 0.2;
+    background: red;
+    cursor: not-allowed;
+}
+
+.selected {
+    opacity: 0.6;
+    background-color: orange;
+}
+
+.corrected {
+    opacity: 1;
+    background-color: green;
+}
+
+/* Start */
+
+.container {
+    max-width: 900px;
+    margin: 65px auto;
+}
+.content_box {
+    padding: 15px;
+    background-color: #fff;
+}
+
+.content {
+    align-items: stretch;
+    gap: 15px;
+}
+
+.left_content {
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 80%;
+    /* aspect-ratio: 3 / 2; */
+    gap: 15px;
+    padding: 15px;
+}
+
+.btn.number_item {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.right_content {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 15px;
+    padding: 15px;
+    flex: 1;
+}
+
+.result_display {
+    padding: 5px;
+    width: 100%;
+    height: 100%;
+}
+
+.life_row {
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.life_row .btn {
+    background-color: green;
+}
+
+.life {
+    opacity: 1;
+    transition: opacity 0.2s;
+}
+
+.life.hidden {
+    opacity: 0;
+}
+
+.btn_row {
+    margin-top: 30px;
+    justify-content: space-around;
+}
+
+.btn_row .btn {
+    padding: 20px 40px;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn_row .btn:active {
+    opacity: 0.6;
+}
+
+.btn_row .btn:first-child {
+    background-color: green;
+}
+.btn_row .btn:last-child {
+    background-color: orange;
+}
+.btn_row .btn:nth-child(2) {
+    background-color: red;
+}
